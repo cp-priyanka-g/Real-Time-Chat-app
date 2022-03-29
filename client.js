@@ -2,6 +2,7 @@ const socket = io('http://localhost:8000')
 const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('send-container')
 const messageInput = document.getElementById('message-input')
+var audio=new Audio('ting.mp3');
 
 const name = prompt('What is your name?')
 appendMessage('You joined')
@@ -31,4 +32,5 @@ function appendMessage(message) {
   const messageElement = document.createElement('div')
   messageElement.innerText = message
   messageContainer.append(messageElement)
+  audio.play();
 }
