@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.1",
+    "socket.io": "^4.4.1"
+  },
+  "name": "real-time-chat-app",
+  "description": "Chat app Using Node.js, Socket.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cp-priyanka-g/Real-Time-Chat-app.git"
+  },
+  "author": "Priyanka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cp-priyanka-g/Real-Time-Chat-app/issues"
+  },
+  "homepage": "https://github.com/cp-priyanka-g/Real-Time-Chat-app#readme"
+}
